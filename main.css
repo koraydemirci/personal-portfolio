@@ -1,0 +1,63 @@
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.valign-wrapper {
+  justify-content: center;
+}
+
+body {
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-header {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.welcome-container {
+  height: 100%;
+  width: 90% !important;
+  margin: 0 auto;
+}
+
+.welcome-title {
+  margin: 0;
+  font-weight: 300;
+}
+
+.nav-wrapper {
+  display: none;
+}
+
+.main-header__arrow {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.5;
+}
+
+.page-footer {
+  background-color: #766e88;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.bg-video__content {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
