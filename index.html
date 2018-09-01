@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BizLand</title>
   <!-- Import Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i" rel="stylesheet">
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Import Font Awesome -->
@@ -21,10 +21,10 @@
 <body class="scrollspy" id="home">
 
   <!-- HEADER -->
-  <header>
+  <header class="main-header">
     <div class="bg-video">
       <video class="bg-video__content" autoplay muted loop>
-        <source src="img/Hello-World.mp4" type="video/mp4">
+        <source src="img/full-stack.mp4" type="video/mp4">
         <!-- <source src="img/Hello-World.webm" type="video/webm"> -->
         Your browser is not supported!
       </video>
@@ -38,46 +38,46 @@
               </div>
               <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
               <div class="nav-wrapper container hide">
-                <a href="#home" class="brand-logo hide-on-small-and-down">Koray Demirci</a>
+                <a href="#home" class="brand-logo hide-on-small-and-down">KD</a>
                 <ul id="nav-mobile" class="right hide-on-small-and-down">
                   <li class="active"><a href="#home">Home</a></li>
                   <li><a href="#about">About</a></li>
                   <li><a href="#portfolio">Portfolio</a></li>
                   <li><a href="#contact">Contact</a></li>
-
                 </ul>
               </div>
             </nav>
-
-          </div>
-          <ul id="slide-out" class="sidenav">
-            <h4 class="purple-text center">Koray Demirci</h4>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <div class="hide main-header-arrow">
-            <a class="main-header-arrow__link" href="#main"></a>
-            <i class="medium material-icons white-text main-header-arrow__icon">arrow_downward</i>
           </div>
         </div>
+
+        <div class="hide main-header-arrow">
+          <i class="medium material-icons white-text main-header-arrow__icon">arrow_downward</i>
+          <a class="main-header-arrow__link" href="#main"></a>
+        </div>
+
       </div>
     </div>
+    <ul id="slide-out" class="sidenav">
+      <h4 class="purple-text center">Koray Demirci</h4>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </header>
-
 
   <!-- MAIN -->
   <main class="scrollspy" id="main">
     <!-- ABOUT ME -->
-    <section class="section center about container scrollspy" id="about">
-      <img class="responsive-img circle about__img" src="img/about-me-1.png" alt="">
-      <p>Koray Demirci <br><em>Full stack Developer</em></p>
+    <section class="center scrollspy about" id="about">
+      <img class="responsive-img about__img" src="img/about-me-1.png" alt="">
+      <p class="flow-text p-margin-small">Koray Demirci</p>
+      <p class="p-margin-small"><em>Full stack Developer</em></p>
 
     </section>
 
     <!-- PORTFOLIO -->
-    <section class="section scrollspy" id="portfolio">
+    <section class="scrollspy" id="portfolio">
 
     </section>
 
@@ -161,11 +161,9 @@
               $('.nav-wrapper').animate({ 'opacity': '1' }, 800);
             });
           } else {
-            $('.nav-wrapper').animate({ 'opacity': '0' }, 800, function () {
-              $('.nav-wrapper').addClass('hide');
-              $('.welcome-container').removeClass('hide');
-              $('.welcome-container').animate({ 'opacity': '1' }, 300);
-            });
+            $('.nav-wrapper').addClass('hide');
+            $('.welcome-container').removeClass('hide');
+            $('.welcome-container').animate({ 'opacity': '1' }, 300);
           }
         },
         offset: -200
