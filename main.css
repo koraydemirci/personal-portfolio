@@ -123,8 +123,13 @@ header ul li:not(:last-child) a {
 .who {
   border-top: none;
 }
+
 .who img {
-  border-radius: 2px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 
 /* ====EDUCATION======= */
@@ -144,24 +149,21 @@ header ul li:not(:last-child) a {
 
 /* ========PROJECTS============ */
 section.projects {
+  padding-top: 1rem;
   padding-bottom: 0 !important;
 }
 
-.projects .row {
-  margin: 0 !important;
+.projects img {
+  border: 2px solid #9c27b0;
 }
 
-.projects a {
-  display: block;
-}
-
-.projects__column {
-  padding: 0 !important;
+.projects img:hover {
   overflow: hidden;
+  border: 5px solid #9c27b0;
 }
 
 .projects__image {
-  -webkit-filter: brightness(60%);
+  -webkit-filter: brightness(70%);
   filter: brightness(60%);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -170,8 +172,11 @@ section.projects {
 .projects__image:hover {
   -webkit-filter: brightness(100%);
   filter: brightness(100%);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }
 
 /* ====CONTACT==== */
@@ -188,6 +193,19 @@ section.projects {
 input,
 textarea {
   border-bottom-color: #9c27b0 !important;
+}
+
+#contact {
+  border: none;
+}
+
+.footer-arrow {
+  
+
+}
+.footer-arrow i {
+height: 24px;
+width: 24px;
 }
 
 /* ======MEDIA QUERIES======== */
