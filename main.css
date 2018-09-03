@@ -1,14 +1,22 @@
 /* =======HELPERS========= */
 .d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .justify-content-center {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -64,6 +72,7 @@ h2 {
 .bg-video__content {
   height: 100%;
   width: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
   /* border-bottom: 5px solid rgba(156, 39, 176, 0.8); */
 }
@@ -98,7 +107,7 @@ nav {
   margin-bottom: 0;
 }
 
-header ul li:not(:last-child) a{
+header ul li:not(:last-child) a {
   font-size: 1.5rem !important;
 }
 
@@ -106,6 +115,7 @@ header ul li:not(:last-child) a{
   position: absolute;
   bottom: 5%;
   left: 50%;
+  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
@@ -153,16 +163,26 @@ section.projects {
 }
 
 .projects__image {
+  -webkit-filter: brightness(60%);
   filter: brightness(60%);
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 .projects__image:hover {
+  -webkit-filter: brightness(100%);
   filter: brightness(100%);
+  -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
 /* ====CONTACT==== */
+::-webkit-input-placeholder {
+  color: #9c27b0;
+}
+:-ms-input-placeholder {
+  color: #9c27b0;
+}
 ::placeholder {
   color: #9c27b0;
 }
@@ -182,6 +202,7 @@ textarea {
 @media (min-width: 993px) {
   .navbar-container h4 {
     margin-right: auto;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
   }
 }
