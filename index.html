@@ -471,10 +471,6 @@
       });
 
       //Init scroll animation
-      //Init scroll animation
-      const mq = window.matchMedia("(min-width: 992px)");
-      if (mq.matches) {
-
         const linkList = ['.home-link', '.who-link', '.projects-link', '.contact-link'];
         const targetList = ['#home', '#who', '#projects', '#contact'];
 
@@ -483,14 +479,6 @@
             $('html, body').animate({ scrollTop: $(targetList[index]).offset().top - 60 }, 1000);
           });
         });
-
-      } else {
-        $('.scrollspy').scrollSpy();
-      }
-
-      $(window).resize(function () {
-        location.reload();
-      });
 
     });
   </script>
