@@ -33,14 +33,16 @@
           <div class="navbar-fixed">
             <nav>
               <a href="#" data-target="slide-out" class="show-on-medium-and-down sidenav-trigger"><i class="material-icons">menu</i></a>
-              <div class="navbar-container valign-wrapper">
-                <h4 class="hide-on-med-and-down flow-text">Hello, my name is Koray Demirci. I'm a Full Stack Web Developer.</h4>
+              <div class="navbar-container justify-content-center valign-wrapper">
+                <h4 class="hide-on-med-and-down flow-text">Hello, my name is Koray Demirci. I'm a Full Stack Web Developer.
+                </h4>
                 <h4 class="hide-on-large-only hide-on-small-only flow-text">Koray Demirci / Full Stack Web Developer</h4>
                 <h4 class="hide-on-med-and-up flow-text">Koray Demirci / Web Developer</h4>
               </div>
+
               <div class="nav-wrapper hide">
                 <div class="container">
-                  <a href="#home" class="brand-logo hide-on-med-and-down">KD</a>
+                  <a href="#home" class="brand-logo hide-on-med-and-down home-link">KD</a>
                   <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a class="who-link" href="#who">About</a></li>
                     <li><a class="projects-link" href="#projects">Projects</a></li>
@@ -312,7 +314,7 @@
 
     <!-- FEATURES -->
     <section class="section center scrollspy">
-      <h2>My Websites Are </h2>
+      <h2>My Work </h2>
       <div class="container">
         <div class="row d-flex">
           <div class="col s12 m6 xl3">
@@ -468,14 +470,14 @@
       });
 
       //Init scroll animation
-        const linkList = ['.home-link', '.who-link', '.projects-link', '.contact-link'];
-        const targetList = ['#home', '#who', '#projects', '#contact'];
+      const linkList = ['.home-link', '.who-link', '.projects-link', '.contact-link'];
+      const targetList = ['#home', '#who', '#projects', '#contact'];
 
-        linkList.forEach(function (el, index) {
-          $(el).click(function () {
-            $('html, body').animate({ scrollTop: $(targetList[index]).offset().top - 60 }, 1000);
-          });
+      linkList.forEach(function (el, index) {
+        $(el).click(function () {
+          $('html, body').animate({ scrollTop: $(targetList[index]).offset().top - 60 }, 1000);
         });
+      });
 
     });
   </script>
