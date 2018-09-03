@@ -156,10 +156,8 @@ section.projects {
 }
 
 .projects__column {
-  border: 1px solid #9c27b0 !important;
   padding: 0 !important;
   overflow: hidden;
-  max-height: 180px;
 }
 
 .projects__image {
