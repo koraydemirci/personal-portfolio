@@ -63,6 +63,10 @@ body {
   overflow-x: hidden;
 }
 
+h2, h4 {
+  font-weight: 300 !important;
+}
+
 h2 {
   text-transform: uppercase;
   color: #9c27b0 !important;
@@ -106,7 +110,6 @@ nav {
 }
 
 .navbar-container h4 {
-  font-weight: 300 !important;
   margin: 0;
   word-spacing: 1px;
 }
@@ -237,8 +240,12 @@ textarea {
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 2rem ;
     margin-bottom: 1rem !important;
+  }
+
+  .education h4 {
+    font-size: 1.5rem;
   }
 
   .who {
@@ -255,5 +262,4 @@ textarea {
     font-size: 1.5rem;
     margin-bottom: 1rem !important;
   }
-
 }

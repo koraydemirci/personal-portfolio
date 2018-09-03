@@ -59,9 +59,9 @@
     </div>
     <ul id="slide-out" class="sidenav">
       <h4 class="purple-text center">Koray Demirci</h4>
-      <li><a href="#who">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a class="sidevnav__link" href="#who">About</a></li>
+      <li><a class="sidevnav__link" href="#projects">Projects</a></li>
+      <li><a class="sidevnav__link" href="#contact">Contact</a></li>
       <li>
         <div class="divider"></div>
       </li>
@@ -95,7 +95,7 @@
     </section>
 
     <!-- EDUCATION -->
-    <section class="section center">
+    <section class="section center education">
       <h2>Education</h2>
       <div class="container">
         <div class="row">
@@ -478,6 +478,12 @@
           $('html, body').animate({ scrollTop: $(targetList[index]).offset().top - 60 }, 1000);
         });
       });
+
+      // Close sidenav when link is clicked
+      $('.sidevnav__link').click(function () {
+        $('.sidenav').sidenav('close');
+      });
+
 
     });
   </script>
