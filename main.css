@@ -162,8 +162,7 @@ header ul li:not(:last-child) a {
 }
 
 /* ========PROJECTS============ */
-section.projects {
-  padding-top: 1rem;
+.projects {
   padding-bottom: 0 !important;
 }
 
@@ -224,7 +223,11 @@ textarea {
   }
 
   .who {
-    margin-top: 3rem;
+    padding-top: 4rem;
+  }
+
+  .projects {
+    padding-top: 2rem;
   }
 }
 
@@ -244,7 +247,11 @@ textarea {
   }
 
   .who {
-    margin-top: 2.5rem;
+    padding-top: 3rem;
+  }
+
+  .projects {
+    padding-top: 1.7rem;
   }
 }
 
@@ -255,6 +262,5 @@ textarea {
 
   h2 {
     font-size: 1.5rem;
-    margin-bottom: 1rem !important;
   }
 }
