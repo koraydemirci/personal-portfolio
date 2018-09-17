@@ -35,18 +35,19 @@
             <nav>
               <a href="#" data-target="slide-out" class="show-on-medium-and-down sidenav-trigger"><i class="material-icons">menu</i></a>
               <div class="navbar-container justify-content-center valign-wrapper">
-                <h4 class="hide-on-med-and-down flow-text">Merhaba, İsmim Koray Demirci. Ben Bir Web Geliştiricisiyim. </h4>
+                <h4 class="hide-on-med-and-down flow-text">Merhaba, İsmim Koray Demirci. Ben Bir Web Geliştiricisiyim.
+                </h4>
                 <h4 class="hide-on-large-only hide-on-small-only flow-text">Koray Demirci / Web Geliştiricisi</h4>
                 <h4 class="hide-on-med-and-up flow-text">Koray Demirci / Web Geliştiricisi</h4>
               </div>
 
               <div class="nav-wrapper hide">
                 <div class="container">
-                  <a href="#home" class="brand-logo hide-on-med-and-down home-link">KD</a>
+                  <a href="#home" class="brand-logo hide-on-med-and-down">KD</a>
                   <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a class="who-link" href="#who">Hakkımda</a></li>
-                    <li><a class="projects-link" href="#projects">Portfolyo</a></li>
-                    <li><a class="contact-link" href="#contact">İletişim</a></li>
+                    <li><a href="#who">Hakkımda</a></li>
+                    <li><a href="#projects">Portfolyo</a></li>
+                    <li><a href="#contact">İletişim</a></li>
                     <li><a class="teal" href="english.html"> English</a></li>
                   </ul>
                 </div>
@@ -60,9 +61,9 @@
     <div id="slide-out" class="sidenav">
       <h4 class="purple-text center">Koray Demirci</h4>
       <ul>
-        <li><a class="sidevnav__link" href="#who">Hakkımda</a></li>
-        <li><a class="sidevnav__link" href="#projects">Portfolyo</a></li>
-        <li><a class="sidevnav__link" href="#contact">İletişim</a></li>
+        <li><a href="#who">Hakkımda</a></li>
+        <li><a href="#projects">Portfolyo</a></li>
+        <li><a href="#contact">İletişim</a></li>
         <li>
           <div class="divider"></div>
         </li>
@@ -72,27 +73,34 @@
   </header>
 
   <!-- MAIN -->
-  <main>
+  <main class="scrollspy" id="who">
     <!-- WHO AM I -->
-    <section class="section center scrollspy who" id="who">
-      <h2 class=" who__title mb-2">BEN KİMİM? </h2>
+    <section class="section center who">
+      <h2 class="mb-2">BEN KİMİM? </h2>
       <div class="container">
         <div class="row d-flex">
           <div class="col s12 l5 valign-wrapper">
             <div class="card-panel">
-              <img class="responsive-img" src="img/who-am-i.jpg" alt="">
+              <img class="responsive-img" src="img/who-am-i.jpg" alt="koray demirci'nin resmi">
             </div>
           </div>
           <div class="col s12 offset-l1 l6">
             <div class="card-panel">
-              <p> Her zaman bana anlam ifade eden bir geleceğin peşinde oldum. Profesyonel yaşamım inşaat mühendisliğinden,
-                televizyonda program yapımcılığına kadar değişik alanlarda ilerledi ve yeni şeyler öğrenmek her zaman tutkum
+              <p> Her zaman bana anlam ifade eden bir geleceğin peşinde oldum. Profesyonel yaşamım inşaat
+                mühendisliğinden,
+                televizyonda program yapımcılığına kadar değişik alanlarda ilerledi ve yeni şeyler öğrenmek her zaman
+                tutkum
                 oldu.
               </p>
-              <p> Meslek yaşamımda değişik alanlarda çalışsam da artık tüm zamanımı daha iyi ve kaliteli web siteleri üretmek
-                için harcıyorum. Öteden beri programcılığa aşık birisi olarak bu beni çok mutlu ediyor. Detaycılığım, yaptığım
-                işe duyduğum sevgi ve topluma karşı ahlaki sorumluluğum ile daha iyi bir dünyada yaşamamız için insanlığa
+              <p> Meslek yaşamımda değişik alanlarda çalışsam da artık tüm zamanımı daha iyi ve kaliteli web
+                uygulamaları
+                üretmek
+                için harcıyorum. Öteden beri programcılığa aşık birisi olarak bu beni çok mutlu ediyor. Detaycılığım,
+                yaptığım
+                işe duyduğum sevgi ve topluma karşı ahlaki sorumluluğum ile daha iyi bir dünyada yaşamamız için
+                insanlığa
                 faydalı olmak istiyorum.</p>
+              <p><small><em>- Koray Demirci</em></small></p>
             </div>
           </div>
         </div>
@@ -111,38 +119,54 @@
             </div>
             <div class="card-panel">
               <h5>Orta Doğu Teknik Üniversitesi</h5>
-              <P>İnşaat Mühendisliği - Lisans</P>
+              <p>İnşaat Mühendisliği - Lisans</p>
             </div>
-            <div class="card-panel">
+            <div class="card-panel mb-2">
               <h5>New York Film Akademisi</h5>
-              <P>Televizyon ve Sinema Yapımcılığı - Yüksek Lisans</P>
+              <p>Televizyon ve Sinema Yapımcılığı - Yüksek Lisans</p>
+            </div>
+            <h4 class="purple-text">Yabancı Diller</h4>
+            <div class="card-panel">
+              <h5>İngilizce</h5>
+              <p class="mb-0">KPDS: 90 / 100</p>
+              <p class="mt-0">TOEFL: 96 / 120</p>
             </div>
           </div>
           <div class="col s12 offset-l1 l7">
             <h4 class="purple-text">Sertifikalar</h4>
             <ul class="collection z-depth-3 certificates__list">
-              <li class="collection-item "><i class=" purple-text material-icons">check</i> React 16 - The Complete Guide
+              <li class="collection-item "><i class=" purple-text material-icons">check</i> React 16 - The Complete
+                Guide
                 <small><em>by Maximilian Schwarzmüller - Udemy</em></small></li>
-              <li class="collection-item"><i class=" purple-text material-icons">check</i> Materialize CSS From Scratch With
+              <li class="collection-item"><i class=" purple-text material-icons">check</i> Materialize CSS From Scratch
+                With
                 5 Projects <small><em>by Brad Traversy - Udemy</em></small></li>
-              <li class="collection-item"><i class=" purple-text material-icons">check</i> Bootstrap 4 From Scratch With
+              <li class="collection-item"><i class=" purple-text material-icons">check</i> Bootstrap 4 From Scratch
+                With
                 5 Projects <small><em>by Brad Traversy - Udemy</em></small></li>
-              <li class="collection-item"><i class=" purple-text material-icons">check</i> Learn and Understand NodeJS <small><em>Created
+              <li class="collection-item"><i class=" purple-text material-icons">check</i> Learn and Understand NodeJS
+                <small><em>Created
                     by Anthony Alicea - Udemy</em></small></li>
-              <li class="collection-item"><i class=" purple-text material-icons">check</i> JavaScript: Understanding the
+              <li class="collection-item"><i class=" purple-text material-icons">check</i> JavaScript: Understanding
+                the
                 Weird Parts <small><em>Created by Anthony Alicea - Udemy
                   </em></small></li>
-              <li class="collection-item"><i class=" purple-text material-icons">check</i> The Complete JavaScript Course
+              <li class="collection-item"><i class=" purple-text material-icons">check</i> The Complete JavaScript
+                Course
                 <small><em>by Jonas Schmedtmann - Udemy</em></small></li>
               <li class="collection-item"><i class=" purple-text material-icons">check</i> Advanced CSS and Sass <small><em>by
                     Jonas Schmedtmann - Udemy</em></small></li>
-              <li class="collection-item"><i class=" purple-text material-icons">check</i> 6.00.2x: Introduction to Computational
+              <li class="collection-item"><i class=" purple-text material-icons">check</i> 6.00.2x: Introduction to
+                Computational
                 Thinking and Data Science <small><em>by Massachusetts Institute of Technology - MITx</em></small></li>
-              <li class="collection-item"><i class=" purple-text material-icons">check</i> 6.00.1x: Introduction to Computer
+              <li class="collection-item"><i class=" purple-text material-icons">check</i> 6.00.1x: Introduction to
+                Computer
                 Science and Programming Using Python <small><em>by Massachusetts Institute of Technology - MITx</em></small></li>
-              <li class="collection-item"><i class=" purple-text material-icons">check</i> Programming for Everybody (Getting
+              <li class="collection-item"><i class=" purple-text material-icons">check</i> Programming for Everybody
+                (Getting
                 Started with Python) <small><em>by University of Michigan - Coursera</em></small></li>
-              <li class="collection-item"><i class=" purple-text material-icons">check</i> Basics of Web Development and
+              <li class="collection-item"><i class=" purple-text material-icons">check</i> Basics of Web Development
+                and
                 Coding
                 <small><em>by University of Michigan - Coursera</em></small></li>
               <li class="collection-item"><i class=" purple-text material-icons">check</i> Computer Science 101 <small><em>by
@@ -150,7 +174,7 @@
             </ul>
           </div>
         </div>
-      </div>  
+      </div>
     </section>
 
     <!-- SKILLS -->
@@ -170,7 +194,7 @@
             <div class="col s6 m4 l3">
               <div class="card">
                 <div class="card-image">
-                  <img src="img/skills/html5.png" alt="html5 logo">
+                  <img src="img/skills/html5.png" alt="html5 logosu">
                 </div>
                 <div class="card-content">
                   <p>HTML</p>
@@ -180,7 +204,7 @@
             <div class="col s6 m4 l3">
               <div class="card">
                 <div class="card-image">
-                  <img src="img/skills/css3.png" alt="css3 logo">
+                  <img src="img/skills/css3.png" alt="css3 logosu">
                 </div>
                 <div class="card-content">
                   <p>CSS3</p>
@@ -190,7 +214,7 @@
             <div class="col s6 m4 l3">
               <div class="card">
                 <div class="card-image">
-                  <img src="img/skills/sass.png" alt="sass logo">
+                  <img src="img/skills/sass.png" alt="sass logosu">
                 </div>
                 <div class="card-content">
                   <p>SASS</p>
@@ -200,7 +224,7 @@
             <div class="col s6 m4 l3">
               <div class="card">
                 <div class="card-image">
-                  <img src="img/skills/bootstrap.png" alt="bootstrap logo">
+                  <img src="img/skills/bootstrap.png" alt="bootstrap logosu">
                 </div>
                 <div class="card-content">
                   <p>Bootstrap</p>
@@ -210,7 +234,7 @@
             <div class="col s6 m4 l3">
               <div class="card">
                 <div class="card-image">
-                  <img src="img/skills/materialize.png" alt="materializecss logo">
+                  <img src="img/skills/materialize.png" alt="materializecss logosu">
                 </div>
                 <div class="card-content">
                   <p>Materialize</p>
@@ -222,7 +246,7 @@
             <div class="col s6 m4 l3">
               <div class="card">
                 <div class="card-image">
-                  <img src="img/skills/javascript.png" alt="javascript logo">
+                  <img src="img/skills/javascript.png" alt="javascript logosu">
                 </div>
                 <div class="card-content">
                   <p>JavaScript</p>
@@ -232,7 +256,7 @@
             <div class="col s6 m4 l3">
               <div class="card">
                 <div class="card-image">
-                  <img src="img/skills/jquery.png" alt="jquery logo">
+                  <img src="img/skills/jquery.png" alt="jquery logosu">
                 </div>
                 <div class="card-content">
                   <p>JQuery</p>
@@ -242,7 +266,7 @@
             <div class="col s6 m4 l3">
               <div class="card">
                 <div class="card-image">
-                  <img src="img/skills/react.png" alt="react logo">
+                  <img src="img/skills/react.png" alt="react logosu">
                 </div>
                 <div class="card-content">
                   <p>React</p>
@@ -254,7 +278,7 @@
             <div class="col s6 m4 l3">
               <div class="card">
                 <div class="card-image">
-                  <img src="img/skills/nodejs.png" alt="nodejs logo">
+                  <img src="img/skills/nodejs.png" alt="nodejs logosu">
                 </div>
                 <div class="card-content">
                   <p>Node</p>
@@ -264,7 +288,7 @@
             <div class="col s6 m4 l3">
               <div class="card">
                 <div class="card-image">
-                  <img src="img/skills/mongodb.png" alt="mongodb logo">
+                  <img src="img/skills/mongodb.png" alt="mongodb logosu">
                 </div>
                 <div class="card-content">
                   <p>MongoDB</p>
@@ -276,7 +300,7 @@
             <div class="col s6 m4 l3">
               <div class="card">
                 <div class="card-image">
-                  <img src="img/skills/python.png" alt="python logo">
+                  <img src="img/skills/python.png" alt="python logosu">
                 </div>
                 <div class="card-content">
                   <p>Python</p>
@@ -286,7 +310,7 @@
             <div class="col s6 m4 l3">
               <div class="card">
                 <div class="card-image">
-                  <img src="img/skills/webpack.png" alt="webpack logo">
+                  <img src="img/skills/webpack.png" alt="webpack logosu">
                 </div>
                 <div class="card-content">
                   <p>Webpack</p>
@@ -296,7 +320,7 @@
             <div class="col s6 m4 l3">
               <div class="card">
                 <div class="card-image">
-                  <img src="img/skills/react.png" alt="react logo">
+                  <img src="img/skills/react.png" alt="react logosu">
                 </div>
                 <div class="card-content">
                   <p>JSX</p>
@@ -306,7 +330,7 @@
             <div class="col s6 m4 l3">
               <div class="card">
                 <div class="card-image">
-                  <img src="img/skills/github.png" alt="github logo">
+                  <img src="img/skills/github.png" alt="github logosu">
                 </div>
                 <div class="card-content">
                   <p>GitHub</p>
@@ -319,7 +343,7 @@
     </section>
 
     <!-- FEATURES -->
-    <section class="section center scrollspy" id="about">
+    <section class="section center">
       <h2> İŞLERİM </h2>
       <div class="container">
         <div class="row d-flex">
@@ -327,14 +351,17 @@
             <div class="card-panel">
               <p><i class="large material-icons purple-text">flash_on</i></p>
               <h5>Hızlı</h5>
-              <p>Zamanın çok değerli olduğu bir dönemde yaşıyoruz. Yaptığım web sitelerinin hızlı yüklenmesi en önemli önceliğim.</p>
+              <p>Zamanın çok değerli olduğu bir dönemde yaşıyoruz. Yaptığım web uygulamalarının hızlı yüklenmesi en
+                önemli
+                önceliğim.</p>
             </div>
           </div>
           <div class="col s12 m6 xl3">
             <div class="card-panel">
               <p><i class="large material-icons purple-text">important_devices</i></p>
               <h5>Mobil Uyumlu</h5>
-              <p>Artık teknoloji çağındayız. Mobil cihazlar internet erişiminin büyük kısmını sağlıyor. Mobile uyumlu web
+              <p>Artık teknoloji çağındayız. Mobil cihazlar internet erişiminin büyük kısmını sağlıyor. Mobile uyumlu
+                web
                 sitesi olmazsa olmaz.</p>
             </div>
           </div>
@@ -349,86 +376,87 @@
             <div class="card-panel">
               <p><i class="large material-icons purple-text">favorite</i></p>
               <h5>Sevgi</h5>
-              <p>İşimi severek yapıyorum ve herhangi bir alanda kaliteli ürünler ortaya çıkması için bunun gerekli olduğunu
+              <p>İşimi severek yapıyorum ve herhangi bir alanda kaliteli ürünler ortaya çıkması için bunun gerekli
+                olduğunu
                 düşünüyorum. </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- PROJECTS -->
-    <section class="section center scrollspy projects" id="projects">
-      <h2>PROJELERİM</h2>
-      <div class="row row1">
-        <div class="col s6 l3 projects__column">
-          <a href="https://priceless-euler-fd73c8.netlify.com/" target="_blank"><img class="responsive-img projects__image"
-              src="img/projects/project-1.jpg" alt="project-1"></a>
-        </div>
-        <div class="col s6 l3 projects__column">
-          <a href="https://dazzling-jang-b2164d.netlify.com" target="_blank"><img class="responsive-img projects__image"
-              src="img/projects/project-2.jpg" alt="project-2"></a>
-        </div>
-        <div class="col s6 l3 projects__column">
-          <a href="https://elegant-galileo-bdb5e8.netlify.com" target="_blank"><img class="responsive-img projects__image"
-              src="img/projects/project-3.jpg" alt="project-3"></a>
-        </div>
-        <div class="col s6 l3 projects__column">
-          <a href="https://dazzling-kalam-8e5964.netlify.com/" target="_blank"><img class="responsive-img projects__image"
-              src="img/projects/project-4.jpg" alt="project-4"></a>
-        </div>
-      </div>
-      <div class="row row2">
-        <div class="col s6 l3 projects__column">
-          <a href="https://heuristic-brattain-f4a90e.netlify.com" target="_blank"><img class="responsive-img projects__image"
-              src="img/projects/project-5.jpg" alt="project-5"></a>
-        </div>
-        <div class="col s6 l3 projects__column">
-          <a href="https://cranky-shirley-8339dc.netlify.com/" target="_blank"><img class="responsive-img projects__image"
-              src="img/projects/project-6.jpg" alt="project-6"></a>
-        </div>
-        <div class="col s6 l3 projects__column">
-          <a href="https://affectionate-bell-b8baa8.netlify.com" target="_blank"><img class="responsive-img projects__image"
-              src="img/projects/project-7.jpg" alt="project-7"></a>
-        </div>
-        <div class="col s6 l3 projects__column">
-          <a href="https://elastic-chandrasekhar-4769e3.netlify.com/" target="_blank"><img class="responsive-img projects__image"
-              src="img/projects/project-8.jpg" alt="project-8"></a>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="section center scrollspy" id="contact">
-      <h2>BANA ULAŞIN</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col s12 offset-l3 l6">
-            <form class="card-panel" method="post" action="https://formspree.io/koraydemirci@gmail.com">
-              <div class="input-field">
-                <input placeholder="İsim - Soyisim" type="text" class="validate" name="İsim Soyisim">
-              </div>
-              <div class="input-field">
-                <input placeholder="Email" type="email" class="validate" name="Email">
-              </div>
-              <div class="input-field">
-                <textarea placeholder="Mesaj" class="materialize-textarea" name="Mesaj"></textarea>
-              </div>
-              <button class="btn btn-large  purple waves-effect waves-light" type="submit">GÖNDER
-                <i class="material-icons right">send</i>
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
   </main>
+
+  <!-- PROJECTS -->
+  <section class="section center scrollspy projects" id="projects">
+    <h2>PROJELERİM</h2>
+    <div class="row">
+      <div class="col s6 l3 projects__column">
+        <a href="https://priceless-euler-fd73c8.netlify.com/" target="_blank"><img class="responsive-img projects__image"
+            src="img/projects/project-1.jpg" alt="proje-1"></a>
+      </div>
+      <div class="col s6 l3 projects__column">
+        <a href="https://dazzling-jang-b2164d.netlify.com" target="_blank"><img class="responsive-img projects__image"
+            src="img/projects/project-2.jpg" alt="proje-2"></a>
+      </div>
+      <div class="col s6 l3 projects__column">
+        <a href="https://elegant-galileo-bdb5e8.netlify.com" target="_blank"><img class="responsive-img projects__image"
+            src="img/projects/project-3.jpg" alt="proje-3"></a>
+      </div>
+      <div class="col s6 l3 projects__column">
+        <a href="https://dazzling-kalam-8e5964.netlify.com/" target="_blank"><img class="responsive-img projects__image"
+            src="img/projects/project-4.jpg" alt="proje-4"></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s6 l3 projects__column">
+        <a href="https://heuristic-brattain-f4a90e.netlify.com" target="_blank"><img class="responsive-img projects__image"
+            src="img/projects/project-5.jpg" alt="proje-5"></a>
+      </div>
+      <div class="col s6 l3 projects__column">
+        <a href="https://cranky-shirley-8339dc.netlify.com/" target="_blank"><img class="responsive-img projects__image"
+            src="img/projects/project-6.jpg" alt="proje-6"></a>
+      </div>
+      <div class="col s6 l3 projects__column">
+        <a href="https://affectionate-bell-b8baa8.netlify.com" target="_blank"><img class="responsive-img projects__image"
+            src="img/projects/project-7.jpg" alt="proje-7"></a>
+      </div>
+      <div class="col s6 l3 projects__column">
+        <a href="https://elastic-chandrasekhar-4769e3.netlify.com/" target="_blank"><img class="responsive-img projects__image"
+            src="img/projects/project-8.jpg" alt="proje-8"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section center scrollspy" id="contact">
+    <h2>BANA ULAŞIN</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 offset-l3 l6">
+          <form class="card-panel" method="post" action="https://formspree.io/koraydemirci@gmail.com">
+            <div class="input-field">
+              <input placeholder="İsim - Soyisim" type="text" class="validate" name="İsim Soyisim">
+            </div>
+            <div class="input-field">
+              <input placeholder="Email" type="email" class="validate" name="Email">
+            </div>
+            <div class="input-field">
+              <textarea placeholder="Mesaj" class="materialize-textarea" name="Mesaj"></textarea>
+            </div>
+            <button class="btn btn-large  purple waves-effect waves-light" type="submit">GÖNDER
+              <i class="material-icons right">send</i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- FOOTER -->
   <footer class="section purple white-text">
     <div class="container justify-content-between valign-wrapper">
       <p class="m-0 p-0">Koray Demirci &copy; 2018</p>
-      <a class="show-on-large footer-arrow home-link" href="#home"><i class="material-icons white purple-text circle">arrow_drop_up_circle</i></a>
+      <a class="show-on-large footer-arrow who-link" href="#who"><i class="material-icons white purple-text circle">arrow_drop_up_circle</i></a>
       <p class="m-0 p-0"><a class="ml-1" href="https://github.com/koraydemirci"><i class="fab fa-github-square  fa-2x white-text"></i></a>
         <a class="ml-1" href=""><i class="fab fa-linkedin fa-2x white-text"></i></a></p>
     </div>
@@ -443,8 +471,21 @@
   <script>
 
     $(document).ready(function () {
+      //Init scrollspy
+      $('.scrollspy').scrollSpy();
+
+      //Init scrollspy for main-header-arrow
+      $('.who-link').click(function () {
+        $('html, body').animate({ scrollTop: $('#who').offset().top - 60 }, 1000);
+      });
+
       //Init sidenav
       $('.sidenav').sidenav();
+
+      // Close sidenav when link is clicked
+      $('.sidenav a').click(function () {
+        $('.sidenav').sidenav('close');
+      });
 
       // Init tabs
       $('.tabs').tabs();
@@ -454,42 +495,25 @@
         element: document.getElementById('home'),
         handler: function (direction) {
           if (direction === 'down') {
-            $('.navbar-container').animate({ 'opacity': '0' }, 500, function () {
-              $('.navbar-container').addClass('hide');
-              $('.nav-wrapper').removeClass('hide');
-              $('.nav-wrapper').animate({ 'opacity': '1' }, 800);
+            $('.navbar-container').fadeOut(500, function () {
+              $(this).addClass('hide');
+              $('.nav-wrapper').removeClass('hide').fadeIn(800);
             });
 
-            $('.main-header-more').animate({ 'opacity': '0' }, 500, function () {
-              $('.main-header-more').removeClass('show-on-large');
+            $('.main-header-arrow').fadeOut(500, function () {
+              $(this).removeClass('show-on-large');
             });
           } else {
             $('.nav-wrapper').addClass('hide');
-            $('.navbar-container').removeClass('hide');
-            $('.main-header-more').addClass('show-on-large');
-            $('.navbar-container').animate({ 'opacity': '1' }, 300);
-            $('.main-header-more').animate({ 'opacity': '1' }, 300);
+            $('.navbar-container').removeClass('hide').fadeIn(300);
+            $('.main-header-arrow').addClass('show-on-large').fadeIn(300);
           }
         },
         offset: -200
       });
 
-      //Init scroll animation
-      const linkList = ['.home-link', '.who-link', '.projects-link', '.contact-link'];
-      const targetList = ['#home', '#who', '#projects', '#contact'];
-
-      linkList.forEach(function (el, index) {
-        $(el).click(function () {
-          $('html, body').animate({ scrollTop: $(targetList[index]).offset().top - 60 }, 1000);
-        });
-      });
-
     });
 
-    // Close sidenav when link is clicked
-    $('.sidevnav__link').click(function () {
-      $('.sidenav').sidenav('close');
-    });
 
   </script>
 </body>
