@@ -172,34 +172,16 @@ nav ul li .active {
 }
 
 /* ========PROJECTS============ */
-
-.projects .row {
-  margin: 0;
-  padding: 0;
+.projects .card-image {
+  border-bottom: 2px solid #eee;
 }
 
-.projects .col {
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
+.projects .btn {
+  margin: 0 1rem;
 }
 
-.projects__image {
-  display: block;
-  -webkit-filter: brightness(60%);
-  filter: brightness(60%);
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.projects__image:hover {
-  -webkit-filter: brightness(100%);
-  filter: brightness(100%);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
+.projects .collection {
+  border: none !important;
 }
 
 /* ====CONTACT==== */
