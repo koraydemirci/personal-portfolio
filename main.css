@@ -148,13 +148,13 @@ nav ul li .active {
   border-top: none;
 }
 
-.who img {
+/* .who img {
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
-}
+} */
 
 /* ====EDUCATION======= */
 .certificates__list {
